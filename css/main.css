@@ -1,0 +1,305 @@
+body {
+	margin: 0;
+	background-color: white;
+	overflow: scroll;
+}
+
+.hhimg{
+	margin-left: 92px;
+}
+
+.onlinecourse {
+	background: #FECD19;
+	border-radius: 0px 300px 300px 0px;
+	width: 162px;
+	height: 43px;
+	margin-top: 120px;
+
+}
+
+.onlinecourse p{
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+	text-align: center;
+	padding-top: 11px;
+
+}
+
+.ruskaz{
+	display: flex;
+	position: absolute;
+	width: 30px;
+	height: 18px;
+	left: 1236px;
+}
+
+.ruskaz a,p{
+
+	margin-top: 34px;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.ruskaz a:nth-child(1){
+	font-weight: bold;
+}
+
+.postupy{
+	margin-top: 39px;
+	width: 657px;
+}
+
+.postupy h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 55px;
+	color: #000000;
+}
+
+.postupy p{
+	width: 547px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.popodrobnei{
+	width: 243px;
+	height: 68px;
+	margin-top: 44px;
+}
+
+.main_img{
+	margin-top: -20px;
+}
+
+.author{
+	display: flex;
+	margin-top: 100px;
+	
+	width: 390px;
+}
+
+.author img{
+	position: absolute;
+	margin-left: 65px;
+}
+
+.author h1{
+	z-index: 1;
+	font-style: normal;	
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 46px;
+	color: #000000;
+}
+
+.leftlines{
+	position: absolute;
+	left: 0px;
+	top: 1320px;
+}
+
+.leftlines img{
+	width: 130px;
+	height: 376px;
+}
+
+.ayuan img {
+	position: absolute;
+  left: 131px;
+  margin-top: 80px;
+}
+
+.chelkakoito img{
+  position: relative;
+	margin-left: 25px;
+  margin-top: 95px;
+}
+
+.nemnogo p{
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #B8B8B8;
+}
+
+.nemnogo{
+	margin-bottom: 64px;	
+
+}
+
+.contentforsecblock{
+	width: 935px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	flex-direction: row;
+}
+
+.block{
+	width: 50%;
+
+}
+
+.block:nth-child(3n+1){
+	margin-bottom: 25px;
+}
+
+.block:nth-child(2n+2) {
+	width: 40%;
+}
+
+.block p{
+	margin: 11px 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000000;
+}
+
+.nemnogo h6{
+	width: 560px;
+	font-family: 'Ubuntu', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 140%;
+	color: #312D2C;
+}
+
+.secblock{
+	display: flex;
+}
+
+.second_block{
+	margin-left: 60px;
+	margin-top: 15px;
+}
+
+.main_second_block{
+
+}
+
+.diploma{
+	margin-top: 40px;
+}
+
+nav {
+	top: 42px;
+	right: 0;
+	left: 0;
+	width: 640px;
+	display: table;
+	margin: 0 auto;
+	transform: translateY(-50%);
+	position: absolute;
+}
+
+nav a {
+	position: relative;
+	display: table-cell;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 10px 20px;
+	transition: 0.2s ease color;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+nav a:before,
+nav a:after {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: 0.2s ease transform;
+}
+
+nav a:before {
+	top: 0;
+	left: 10px;
+	width: 6px;
+	height: 6px;
+}
+
+nav a:after {
+	top: 5px;
+	left: 18px;
+	width: 4px;
+	height: 4px;
+}
+
+nav a:nth-child(1):before {
+	background-color: yellow;
+}
+
+nav a:nth-child(1):after {
+	background-color: red;
+}
+
+nav a:nth-child(2):before {
+	background-color: #00e2ff;
+}
+
+nav a:nth-child(2):after {
+	background-color: #89ff00;
+}
+
+nav a:nth-child(3):before {
+	background-color: purple;
+}
+
+nav a:nth-child(3):after {
+	background-color: palevioletred;
+}
+
+nav a:nth-child(4):before {
+	background-color: purple;
+}
+
+nav a:nth-child(4):after {
+	background-color: palevioletred;
+}
+
+nav a:nth-child(5):before {
+	background-color: purple;
+}
+
+nav a:nth-child(5):after {
+	background-color: palevioletred;
+}
+
+
+
+nav a:hover {
+	color: black;
+}
+
+nav a:hover:before,
+nav a:hover:after {
+	transform: scale(1);
+}
+
